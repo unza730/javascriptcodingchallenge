@@ -1,0 +1,35 @@
+<script>
+    const arrNumber=[1,2,8,2,5,9,8,7,6,5];
+   const duplicates = arrNumber.filter((ele,index, arr)=> {
+//  The indexOf() method returns the position 
+// of the first occurrence of a value in a string.
+
+// The indexOf() method returns -1 if the value is not found.
+   console.log("Arr.indexOf(ele)",  arr.indexOf(ele))
+   console.log("index", index)
+// findduplicate.html:4   Arr.indexOf(ele) 0
+// findduplicate.html:5  index 0
+// findduplicate.html:4  Arr.indexOf(ele) 1
+// findduplicate.html:5  index 1
+// findduplicate.html:4  Arr.indexOf(ele) 2
+// findduplicate.html:5  index 2
+// findduplicate.html:4  Arr.indexOf(ele) 1
+// findduplicate.html:5  index 3
+// findduplicate.html:4  Arr.indexOf(ele) 4
+// findduplicate.html:5  index 4
+// findduplicate.html:4  Arr.indexOf(ele) 5
+// findduplicate.html:5  index 5
+// findduplicate.html:4  Arr.indexOf(ele) 2
+// findduplicate.html:5  index 6
+// findduplicate.html:4  Arr.indexOf(ele) 7
+// findduplicate.html:5  index 7
+// findduplicate.html:4  Arr.indexOf(ele) 8
+// findduplicate.html:5  index 8
+// findduplicate.html:4  Arr.indexOf(ele) 4
+// findduplicate.html:5  index 9
+
+    return(
+        arr.indexOf(ele)!==index)})
+   console.log(duplicates)
+//    findduplicate.html:29 (3) [2, 8, 5]
+</script>
