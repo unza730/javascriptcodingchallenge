@@ -11,3 +11,9 @@ const splitWord=(str)=> {
 
 let str = "LEarn with Krishna Sandeep";
 splitWord(str)
+// ========= out put ===========
+// Wrods (4) ['LEarn', 'with', 'Krishna', 'Sandeep']
+//  Stringff L
+//  Stringff w
+//  Stringff K
+//  Stringff S
